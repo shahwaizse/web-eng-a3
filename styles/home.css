@@ -1,0 +1,32 @@
+body {
+    background-color: whitesmoke;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 20px;
+}
+
+.navbar ul{
+  background: black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.placeholder {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-style: italic;
+    box-shadow: 1px 1px 5px black;
+    padding: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: whitesmoke;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 20px;
+}
+
+.navbar ul{
+  background: black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.itemdeets {
+  width: fit-content;
+  margin: 0 auto; /*margin: auto is used for centering an element*/
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.itemdeets div {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.itemlist {
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.clear {
+  width: fit-content;
+  margin: 0 auto;
+}

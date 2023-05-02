@@ -1,0 +1,39 @@
+body {
+    background-color: whitesmoke;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 20px;
+}
+
+.navbar ul{
+  background: black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.timetable {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+table th, td {
+  border: 1px solid black;
+}
+
+.row1 td {
+  width: 6.25%;
+}
+
+.row2 td, .row3 td, .row4 td, .row5 td, .row6 td {
+  text-align: center;
+  padding: 10px;
+}

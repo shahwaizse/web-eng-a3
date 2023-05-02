@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../styles/cart.css">
+    <script src="../scripts/cart.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="timetable.html">Timetable</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+
+    <br><br><br>
+
+    <div class="itemdeets">
+        <label for="item">Item:</label>
+        <br>
+        <input type="text" id="item" name="item">
+        <br><br>
+        <label for="quantity">Quantity:</label>
+        <br>
+        <input type="number" id="quantity" name="quantity">
+        <br><br>
+        <div>
+            <button onclick="save()">Save</button>
+            <button onclick="update()">Update</button>
+            <button onclick="remove()">Delete</button>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="itemlist">
+        <!-- added items go here -->
+    </div>
+
+    <br><br><br>
+
+    <div class="clear">
+        <button onclick="clearitems()">Clear</button>
+    </div>
+
+</body>
+</html>
