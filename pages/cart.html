@@ -28,10 +28,10 @@
         <br>
         <input type="number" id="quantity" name="quantity">
         <br><br>
-        <div>
-            <button onclick="save()">Save</button>
-            <button onclick="update()">Update</button>
-            <button onclick="remove()">Delete</button>
+        <div class="buttons">
+            <div onclick="save()">Save</div>
+            <div onclick="update()">Update</div>
+            <div onclick="remove()">Delete</div>
         </div>
     </div>
 
@@ -43,9 +43,11 @@
 
     <br><br><br>
 
-    <div class="clear">
-        <button onclick="clearitems()">Clear</button>
-    </div>
+    <!-- <div class="clear">
+        <div class="clear" onclick="clearitems()">Clear</div>
+    </div> -->
+
+    <div class="clear" onclick="clearitems()">Clear</div>
 
 </body>
 </html>

@@ -12,8 +12,14 @@ function populate(){
 
 function save(){
     let exists = false;
-    let inputName = document.getElementById('item').value;
-    let inputQuantity = document.getElementById('quantity').value;
+    let nameInput = document.getElementById('item');
+    let quantityInput = document.getElementById('quantity');
+    let inputName = nameInput.value;
+    let inputQuantity = quantityInput.value;
+    if(inputName == ""){
+        alert("item name cannot be empty");
+        return;
+    }
     if(inputQuantity <= 0){
         alert("quantity cannot be <= zero");
         return;
@@ -30,6 +36,8 @@ function save(){
     }
     const item = {name:inputName, quantity:inputQuantity};
     items.push(item);
+    nameInput.value = null;
+    quantityInput.value = null;
     populate();
 }
 
